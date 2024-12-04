@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <!-- JQuery Load -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- highchart load -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <!-- CSS Load -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- my script load -->
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="TitleContainer">My Life Timeline</div>
+    <svg
+      width="600"
+      height="3"
+      style="
+        position: absolute;
+        top: 120px;
+        left: 50%;
+        transform: translateX(-50%);
+      "
+    >
+      <line
+        x1="0"
+        y1="1.5"
+        x2="600"
+        y2="1.5"
+        stroke="#faf3e9"
+        stroke-width="3"
+        stroke-dasharray="15, 19"
+        stroke-linecap="round"
+      />
+    </svg>
+    <!-- <div class="line"></div> -->
+  </body>
+</html>

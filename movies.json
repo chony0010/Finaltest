@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "title": "Wall-E",
+    "date": "2008.08.06",
+    "description": "지구를 청소하던 로봇이 사랑을 찾아 떠나는 이야기",
+    "director": "앤드류 스탠튼",
+    "image": "wallE.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Joker",
+    "date": "2024.08.06",
+    "description": "조커의 이야기",
+    "director": "토드 필립스",
+    "image": "joker.jpg"
+  }
+]
